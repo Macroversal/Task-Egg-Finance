@@ -1,0 +1,14 @@
+{
+  "name": "taskeggfinance",
+  "version": "1.0.0",
+  "description": "a personal finance manager web application implementing features for expense tracking, budget management, and generating financial reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
