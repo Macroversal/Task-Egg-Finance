@@ -1,0 +1,33 @@
+{
+    "en": {
+      "app.title": "Personal Finance Manager",
+      "dashboard.title": "Dashboard",
+      "dashboard.totalBalance": "Total Balance: ${{total}}",
+      "dashboard.income": "Income",
+      "dashboard.expenses": "Expenses",
+      "expense.add": "Add Expense",
+      "expense.name": "Expense Name",
+      "expense.amount": "Expense Amount",
+      "expense.save": "Save Expense",
+      "expense.cancel": "Cancel",
+      "expense.list": "Expense List",
+      "expense.edit": "Edit Expense",
+      "expense.delete": "Delete Expense"
+    },
+    "fr": {
+      "app.title": "Gestionnaire Financier Personnel",
+      "dashboard.title": "Tableau de bord",
+      "dashboard.totalBalance": "Solde Total : {{total}} $",
+      "dashboard.income": "Revenu",
+      "dashboard.expenses": "Dépenses",
+      "expense.add": "Ajouter une Dépense",
+      "expense.name": "Nom de la Dépense",
+      "expense.amount": "Montant de la Dépense",
+      "expense.save": "Enregistrer la Dépense",
+      "expense.cancel": "Annuler",
+      "expense.list": "Liste des Dépenses",
+      "expense.edit": "Modifier la Dépense",
+      "expense.delete": "Supprimer la Dépense"
+    }
+  }
+  
