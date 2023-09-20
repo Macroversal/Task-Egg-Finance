@@ -1,6 +1,12 @@
 const express = require('express');
-const router = express.Router();
+const app = express();
+const budgetsApiRouter = require('./budgetsapi');
 
-// Define routes for managing expenses here
+// Mount the budgets API router on '/api'
+app.use('/api', budgetsApiRouter);
 
-module.exports = router;
+// Start your Express server
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
