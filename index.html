@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Manager</title>
+    <!-- Include your CSS stylesheets here -->
+    <link rel="stylesheet" href="dashboard.css">
+    <!-- Include any external CSS libraries, e.g., Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Include a top navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="#expense-tracking">Expense Tracking</a></li>
+            <li><a href="#budget-management">Budget Management</a></li>
+            <li><a href="#financial-reports">Financial Reports</a></li>
+            <li><a href="#user-profile">User Profile</a></li>
+            <li><a href="#settings">Settings</a></li>
+        </ul>
+    </nav>
+
+    <!-- Include your main dashboard content here -->
+    <div class="container">
+        <div id="expense-tracking">
+            <!-- Include Vue.js components or plain HTML for expense tracking -->
+        </div>
+        <div id="budget-management">
+            <!-- Include Vue.js components or plain HTML for budget management -->
+        </div>
+        <div id="financial-reports">
+            <!-- Include Vue.js components or plain HTML for financial reports -->
+        </div>
+        <div id="user-profile">
+            <!-- Include Vue.js components or plain HTML for user profile -->
+        </div>
+        <div id="settings">
+            <!-- Include Vue.js components or plain HTML for settings -->
+        </div>
+    </div>
+
+    <!-- Include Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <!-- Include your Vue.js components and scripts -->
+    <script src="ExpenseItem.vue"></script>
+    <script src="ExpenseForm.vue"></script>
+    <script src="FinancialSummary.vue"></script>
+    <script src="BudgetList.vue"></script>
+    <script src="BudgetItem.vue"></script>
+    <script src="BudgetForm.vue"></script>
+    <!-- Include your main JavaScript file -->
+    <script src="dashboard.js"></script>
+</body>
+</html>
